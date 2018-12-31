@@ -49,7 +49,7 @@ module.exports = {
   ** Axios module configuration
   */
   axios: {
-    baseURL = process.env.API_BASE_URL
+    baseURL: process.env.API_BASE_URL
   },
 
   /*
