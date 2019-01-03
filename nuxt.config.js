@@ -51,7 +51,11 @@ module.exports = {
   axios: {
     baseURL: process.env.API_BASE_URL
   },
-
+  router: {
+    middleware: [
+      'auth-cookie'
+    ]
+  },
   /*
   ** Build configuration
   */

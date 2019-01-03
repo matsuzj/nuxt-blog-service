@@ -35,7 +35,7 @@ export default {
                     user: {
                         id: 'matsuzj'
                     }
-                },
+                }
             ]
         }
     }
